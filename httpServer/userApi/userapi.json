@@ -1,0 +1,92 @@
+[
+    {
+        "id": "418a9ca0-dff8-4af1-bb37-c5257f612063",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "genre": "fiction",
+        "yearPublished": 1960,
+        "checkedOut": false,
+        "isPermanentCollection": false,
+        "createdAt": "2023-04-05T10:04:27.015Z"
+    },
+    {
+        "id": "46f663b7-3d97-4202-9de8-c04c46e5a5ea",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "genre": "fiction",
+        "yearPublished": 1960,
+        "checkedOut": false,
+        "isPermanentCollection": false,
+        "createdAt": "2023-04-05T10:03:16.821Z"
+    },
+    {
+        "id": "5ffe780d-d584-497e-99fc-c74f82f96f4f",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "genre": "fiction",
+        "yearPublished": 1960,
+        "checkedOut": false,
+        "isPermanentCollection": false,
+        "createdAt": "2023-04-05T10:00:16.610Z"
+    },
+    {
+        "id": "f2f8bfc5-f849-44c5-859e-833391c09d11",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "genre": "fiction",
+        "yearPublished": 1960,
+        "checkedOut": false,
+        "isPermanentCollection": false,
+        "createdAt": "2023-04-05T09:57:20.022Z"
+    },
+    {
+        "id": "d692787a-51a8-4210-ab48-6c1ec9916066",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "genre": "fiction",
+        "yearPublished": 1960,
+        "checkedOut": false,
+        "isPermanentCollection": false,
+        "createdAt": "2023-04-05T09:57:04.305Z"
+    },
+    {
+        "id": "f594fd07-898a-4955-b083-2d925e710804",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "genre": "fiction",
+        "yearPublished": 1960,
+        "checkedOut": false,
+        "isPermanentCollection": false,
+        "createdAt": "2023-04-05T09:55:31.965Z"
+    },
+    {
+        "id": "4184a0d7-985c-4118-a1cf-a904de98aec5",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "genre": "fiction",
+        "yearPublished": 1960,
+        "checkedOut": false,
+        "isPermanentCollection": false,
+        "createdAt": "2023-04-05T09:44:39.909Z"
+    },
+    {
+        "id": "efbe4c71-5f9b-49e2-ace6-9a34485d3f53",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "genre": "fiction",
+        "yearPublished": 1960,
+        "checkedOut": false,
+        "isPermanentCollection": false,
+        "createdAt": "2023-04-05T09:35:23.023Z"
+    },
+    {
+        "id": "0f91fb98-ce78-458a-8583-2dc75a345ec0",
+        "title": "Shaka Laka Boom Boom",
+        "author": "Harper Lee",
+        "genre": "fiction",
+        "yearPublished": 1960,
+        "checkedOut": false,
+        "isPermanentCollection": false,
+        "createdAt": "2023-04-05T09:34:35.382Z"
+    }
+]
