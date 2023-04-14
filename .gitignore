@@ -7,6 +7,7 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+lerna-debug.log*
 
 # Ignore dependency lock files
 package-lock.json
@@ -14,15 +15,24 @@ yarn.lock
 
 # Ignore environment variables file
 .env
+.env.test
+.env.production
 
 # Ignore build output directory (if applicable)
-build
-dist
-out
+build/
+dist/
+out/
+public/
+*.js.map
 
 # Ignore editor specific files and folders
 .vscode
 .idea
 *.sublime-*
 *.swp
+*.swo
 *~
+
+# Miscellaneous
+*.DS_Store
+Thumbs.db
