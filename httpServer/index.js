@@ -16,6 +16,10 @@ const url = require("url");
 const fs = require("fs");
 
 const server =http.createServer((req,res)=>{
+    const data=fs.readFileSync(`${__dirname}/userApi/userapi.json`,"utf-8");
+            const objData = JSON.parse(data);
+
+
     // console.log(req.url);
     if(req.url=="/"){
         res.end("Hello this is home section.");
@@ -27,13 +31,12 @@ const server =http.createServer((req,res)=>{
         res.end("Hello this is contact section.");
     }
     else if(req.url=="/userapi"){
-        fs.readFile(`${__dirname}/userApi/userapi.json`,"utf-8",(err,data)=>{
-                console.log(data);
-                res.end(data);
-        });
+        res.writeHead(200,{"content-type":"application/json"})
+                res.end(objData[0].title);  //this is nothing but a array of an object.
+       
     }
     else{
-        res.writeHead(404,{"Content-type":"text/html"});
+        res.writeHead(404,{"content-type":"text/html"});
         res.end("<h1>404 page does not exits.</h1>");
     }
 });
