@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Demo Landing Page</title>
+    <style>
+      /* Global styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #50a3a4;
+  color: white;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 50px;
+  text-align: center;
+  background: #ffffe4;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.cta {
+  background-color:slateblue;
+  color: white;
+  display: inline-block;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.cta:hover {
+  background-color: white;
+  color: #333;
+  border: 1px solid #333;
+}
+
+    </style>
+  </head>
+  <body>
+  <!-- header part  -->
+     {{>header}}
+    <!-- main part  -->
+    <main>
+      <h1>Welcome to My Landing Page</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum mi quis urna semper, eu vestibulum ex laoreet. Fusce at libero orci. Sed vel metus et velit convallis gravida. Pellentesque pharetra enim eros, id ultricies arcu tincidunt et. Donec non purus vel massa tincidunt laoreet. Aliquam consequat risus sit amet tortor commodo tempor. Ut pharetra est sit amet erat dapibus feugiat. Nullam congue enim vel dolor vulputate interdum.</p>
+      <a href="#" class="cta">Learn More</a>
+      <footer>
+        <p>Copyright © 2023 by {{Name}}</p>
+      </footer>
+    </main>
+    <!-- main part ends here  -->
+  </body>
+</html>
