@@ -22,7 +22,6 @@ yarn.lock
 build/
 dist/
 out/
-public/
 *.js.map
 
 # Ignore editor specific files and folders
